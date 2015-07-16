@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="kodowanie" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/kodowanie" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/kodowanie" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="include/alfabetBraillea.h" />
+		<Unit filename="include/kodowanie.h" />
+		<Unit filename="include/kodowanieMorsea.h" />
+		<Unit filename="include/rot13.h" />
+		<Unit filename="include/rot47.h" />
+		<Unit filename="include/szyfrAtBash.h" />
+		<Unit filename="include/szyfrBacona.h" />
+		<Unit filename="include/szyfrCezara.h" />
+		<Unit filename="include/szyfrCmentarny.h" />
+		<Unit filename="include/szyfrVigenerea.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/alfabetBraillea.cpp" />
+		<Unit filename="src/kodowanie.cpp" />
+		<Unit filename="src/kodowanieMorsea.cpp" />
+		<Unit filename="src/rot13.cpp" />
+		<Unit filename="src/rot47.cpp" />
+		<Unit filename="src/szyfrAtBash.cpp" />
+		<Unit filename="src/szyfrBacona.cpp" />
+		<Unit filename="src/szyfrCezara.cpp" />
+		<Unit filename="src/szyfrCmentarny.cpp" />
+		<Unit filename="src/szyfrVigenerea.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
